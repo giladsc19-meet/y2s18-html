@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Chicago Bulls</title>
 </head>
-<body>
-	<h1 style="background-color:tomato;">Chicago bulls FanPage</h1>
+<div style="background-color: tomato"><body>
+	<h1>Chicago bulls FanPage</h1>
 	<h2>Chicago is my town...</h2>
-	<p>Gilad is the best ever and Idan is terrible </p>
-	<img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_2885000/altimages/ff_2885283alt4_full.jpg&w=600" width="100" height="100">>
+	<p>The Chicago Bulls are an American professional basketball team based in Chicago, Illinois. The Bulls compete in the National Basketball Association (NBA) as a member of the league's Eastern Conference Central Division</p>
+	<img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_2885000/altimages/ff_2885283alt4_full.jpg&w=600" width="300" height="300">>
 	<br>
-	<table border="10">
+	<table border="7">
 		<th>name</th>
 		<th>color</th>
 		<th>overall</th>
@@ -37,12 +38,22 @@
 		<li>Dennis Rodman</li>
 
 	</ol>
+	<form> placeholder="full name"> </form>
 	<p>whats your name?</p>
-	<form type="text" placeholder="full name"> </form>
-	<p>whats youe ID?</p>
-	<form type="password" placeholder="ID"> </form>
-	<p>what is your favorite players?</p>
+	<input type="text" name="name" placeholder="full name"> 
+	<p>whats youe ID?</>
+	<input type="password" name="ID" placeholder="ID">
+	<p>who are your favorite players?</p>
+	<input type="checkbox" name="FavPlayers" value="Jordan">Jordan 
+	<input type="checkbox" name="FavPlayers" value="Butler">Butler
+	<input type="checkbox" name="FavPlayers" value="Rose">Rose
+	<input type="checkbox" name="FavPlayers" value="Pippen">Pippen
+	<input type="checkbox" name="FavPlayers" value="Portis">Portis
 	<p>do you like the team</p>
-	<a href="https://en.wikipedia.org/wiki/Chicago_Bulls"> visit our wikipedia page!</a>
-</body>
+	<input type="radio" name="like" value="yes">yes
+	<input type="radio" name="like" value="no">no
+	<br>
+	<input type="submit" value="submit">
+	<br><a href="https://en.wikipedia.org/wiki/Chicago_Bulls"> visit our wikipedia page!</a>
+</body></div>
 </html>
